@@ -4,12 +4,10 @@ import java.util.List;
 
 import hrms.project.hrms.core.utilities.DataResult;
 import hrms.project.hrms.core.utilities.Result;
-import hrms.project.hrms.entities.concretes.JobTitle;
+import hrms.project.hrms.entities.concretes.Employer;
 
-public interface JobTitleService {
+public interface EmployerService {
 
-	DataResult<List<JobTitle>> getAll();
-
-	Result add(JobTitle jobTitle);
-
+	DataResult<List<Employer>> getAll();
+	Result add(Employer employer);
 }
